@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>世界，你好！</title><url>/demo/hello-world.html</url><categories><category>建站</category></categories><tags><tag>Hugo</tag><tag>开始</tag></tags><content type="html">  一些用法 “使用 weight 关键字置顶文章。”
+发表新文章 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 $ hugo 更多信息： Hugo 建站 部署到服务器 $ hugo deploy 更多信息： Hugo 发布 实时预览 $ hugo server -D   </content></entry><entry><title>flinks</title><url>/flinks.html</url><categories/><tags/><content type="html">  test
+- name: Hugo-NexT desc: Hugo NexT 。 avatar: https://hugo-next.eu.org/imgs/hugo_next_avatar.png link: https://hugo-next.eu.org   </content></entry></search>
