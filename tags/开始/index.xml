@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开始 on </title>
+    <link>/tags/%E5%BC%80%E5%A7%8B/</link>
+    <description>Recent content in 开始 on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Nov 2024 16:43:23 +0800</lastBuildDate>
+    <atom:link href="/tags/%E5%BC%80%E5%A7%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>世界，你好！</title>
+      <link>/demo/hello-world.html</link>
+      <pubDate>Thu, 28 Nov 2024 11:52:03 +0800</pubDate>
+      <guid>/demo/hello-world.html</guid>
+      <description>&lt;h1 id=&#34;一些用法&#34;&gt;一些用法&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“使用 &lt;code&gt;weight&lt;/code&gt; 关键字置顶文章。”&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>
