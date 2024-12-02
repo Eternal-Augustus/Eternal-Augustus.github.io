@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>DTU格式数据集</title><url>/post/dtu%E6%A0%BC%E5%BC%8F%E6%95%B0%E6%8D%AE%E9%9B%86/</url><categories><category>三维重建</category></categories><tags><tag>三维重建</tag></tags><content type="html"><![CDATA[  要点： 1，抽帧,重命名 2，npy数据转换成npz 数据
+抽帧 将拍摄的视频抽帧成不同视角下的图片
+使用 extract_frames.py cd C:\Users\71905\Desktop\LLFF-master\video python extract_frames.py --video_in &#34;20240720_183328_474.mp4&#34; --video_fps 5 或者
+python extract_frames.py --video_in &#34;C:\Users\71905\Desktop\LLFF-master\video\20240720_183328_474.mp4&#34; --video_fps 5 Colmap 稀疏重建 File -&gt; New project Processing -&gt; Feature extraction-&gt;Camera model -&gt;SIMPLE_PINHOLE Processing -&gt; Feature matching Reconstruction -&gt; Start reconstruction File -&gt; Export model /sparse/0/ 注意:匹配的位姿和图片数目不同在后续的步骤中会导致报错
+生成LLFF数据 LLFF-master目录下，打开imgs2poses.py
+python imgs2poses.py &#34;XXXX/XXXX/&#34; 遇到位姿和图片不匹配的问题，删掉不符合要求的图片重新进行稀疏重建 得到npy文件
+转换成DTU数据格式 python tools/preprocess_llff.py XXXX 最后会生成cameras_sphere.npz文件
+XXXX（总文件夹名称） | | images | | |-- 0001.jpg | | |-- 0002.png | | ... | | images_colmap.db | | sparse | |0 | | |-- cameras.bin | | |-- images.bin | | |-- points3D.bin | | |-- cproject.ini | | cameras_sphere.npz | | poses_bounds.npy | | sparse_points.ply | | | 问题 llff制作的数据集无法手动清除杂点，对低质量的重建不太行
+  ]]></content></entry><entry><title>世界，你好！</title><url>/demo/hello-world.html</url><categories><category>建站</category></categories><tags><tag>Hugo</tag><tag>开始</tag></tags><content type="html"> 一些用法 “使用 weight 关键字置顶文章。”
+发表新文章 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 $ hugo 更多信息： Hugo 建站 部署到服务器 $ hugo deploy 更多信息： Hugo 发布 实时预览 $ hugo server -D</content></entry><entry><title>关于我</title><url>/about.html</url><categories/><tags/><content type="html"> test
+- name: Hugo-NexT desc: Hugo NexT 。 avatar: https://hugo-next.eu.org/imgs/hugo_next_avatar.png link: https://hugo-next.eu.org</content></entry></search>

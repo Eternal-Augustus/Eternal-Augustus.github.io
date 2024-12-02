@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on NebulaVoyager</title><link>/post/</link><description>Recent content in Posts on NebulaVoyager</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 01 Dec 2024 20:03:19 +0800</lastBuildDate><atom:link href="/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>DTU格式数据集</title><link>/post/dtu%E6%A0%BC%E5%BC%8F%E6%95%B0%E6%8D%AE%E9%9B%86/</link><pubDate>Sun, 01 Dec 2024 20:03:19 +0800</pubDate><guid>/post/dtu%E6%A0%BC%E5%BC%8F%E6%95%B0%E6%8D%AE%E9%9B%86/</guid><description>&lt;h2 id="要点">要点：&lt;/h2>
-&lt;p>1，抽帧,重命名 2，npy数据转换成npz 数据&lt;/p></description></item><item><title>世界，你好！</title><link>/demo/hello-world.html</link><pubDate>Thu, 28 Nov 2024 11:52:03 +0800</pubDate><guid>/demo/hello-world.html</guid><description>&lt;h1 id="一些用法">一些用法&lt;/h1>
-&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on NebulaVoyager</title><link>/post/</link><description>Recent content in Posts on NebulaVoyager</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 01 Dec 2024 20:03:19 +0800</lastBuildDate><atom:link href="/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>DTU格式数据集</title><link>/post/dtu%E6%A0%BC%E5%BC%8F%E6%95%B0%E6%8D%AE%E9%9B%86/</link><pubDate>Sun, 01 Dec 2024 20:03:19 +0800</pubDate><guid>/post/dtu%E6%A0%BC%E5%BC%8F%E6%95%B0%E6%8D%AE%E9%9B%86/</guid><description>&lt;h2 id="要点">要点：
+&lt;a class="header-anchor" href="#%e8%a6%81%e7%82%b9">&lt;/a>
+&lt;/h2>&lt;p>1，抽帧,重命名 2，npy数据转换成npz 数据&lt;/p></description></item><item><title>世界，你好！</title><link>/demo/hello-world.html</link><pubDate>Thu, 28 Nov 2024 11:52:03 +0800</pubDate><guid>/demo/hello-world.html</guid><description>&lt;h1 id="一些用法">一些用法
+&lt;a class="header-anchor" href="#%e4%b8%80%e4%ba%9b%e7%94%a8%e6%b3%95">&lt;/a>
+&lt;/h1>&lt;blockquote>
 &lt;p>“使用 &lt;code>weight&lt;/code> 关键字置顶文章。”&lt;/p>
 &lt;/blockquote></description></item></channel></rss>
